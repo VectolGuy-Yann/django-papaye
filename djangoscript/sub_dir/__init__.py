@@ -1,0 +1,1 @@
+from .djangoscript import Djangoscript

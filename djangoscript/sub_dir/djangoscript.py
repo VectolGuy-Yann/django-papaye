@@ -15,7 +15,7 @@ import os
 import time
 
 
-class TransPyJs:
+class Djangoscript:
     """Class that allows the developper to use Transcript with ease"""
 
     def __init__(self, conf_path=os.path.join(os.path.expanduser("~"),
@@ -24,12 +24,12 @@ class TransPyJs:
 
         self.conf_path = conf_path
 
-    def login(self):
-        """Logs user in through terminal"""
+    def configure(self):
+        """Creates all the required files and folders"""
 
         # Configures config file if not done so already
         if not os.path.exists(self.conf_path):
-            self.configure()
+            pass
         # Opens a terminal
         os.system("gnome-terminal")
         time.sleep(1)
@@ -37,25 +37,6 @@ class TransPyJs:
             for cmd in f:
                 self._run_cmd(cmd)
 
-    def configure(self):
-        """Configures file that will contain commands to run"""
-
-        logging.info("Configuring work login")
-        cmds = [input("Next command, or hit enter:\n")]
-        # Ugh needs 3.6 compatibility, but with 3.8 could use walrus here
-        while cmds[-1] != "":
-            cmds.append(input("Next command, or hit enter:\n"))
-        with open(self.conf_path, "w+") as f:
-            f.write("\n".join(cmds))
-
-    def _run_cmd(self, cmd):
-        """Runs a command slowly so as not to error"""
-
-        new_cmd = cmd.replace("\n", "")
-        for c in new_cmd:
-            self._type_key(c)
-        time.sleep(.1)
-
 if __name__ == "__main__":
-    TransPyJs().login()
+    Djangoscript().configure()
     
