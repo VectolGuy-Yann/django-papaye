@@ -18,7 +18,7 @@ from distutils.dir_util import copy_tree
 
 
 class Djangoscript:
-    """Class that allows the developper to use Transcript with ease"""
+    """Class that allows the developer to use Transcript with ease"""
 
     def __init__(self, conf_path=os.getcwd()):
         """Saves config file location"""
