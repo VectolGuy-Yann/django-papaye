@@ -120,6 +120,7 @@ Note: I currently have not written any tests, since I have tried the program and
 
 ## History
 * [django\-papaye](#django\-papaye)
+   * 0.1.7 - Enabled README.md for Pypi 
    * 0.1.6 - Add a donation link inside README.md 
    * 0.1.5 - Another quick fix on README.md 
    * 0.1.4 - Quick fix on README.md 

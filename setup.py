@@ -5,8 +5,8 @@
 
 from setuptools import find_packages, setup
 
-#with open("README.md", "r", encoding="utf-8") as fh:
-#    long_description = fh.read()
+with open("README.md", "r", encoding="utf-8") as fh:
+   long_description = fh.read()
 
 setup(    
     name="django-papaye",
@@ -14,14 +14,14 @@ setup(
     author_email="guyyann.vectol@gmail.com",
     maintainer="Guy-Yann VECTOL",
     maintainer_email="guyyann.vectol@gmail.com",
-    version="0.1.6",
+    version="0.1.7",
     url="https://github.com/VectolGuy-Yann/django-papaye",
     download_url='https://github.com/VectolGuy-Yann/django-papaye',
     keywords=['django-papaye', 'django', 'papaye', 'transcrypt', 'pyjs', 'pytojs', 'py2js', 'Vectol'],
     license="BSD",
     description="You write in Python, it compiles to Javascript #Made with ❤️ from west indies",
-    #long_description=long_description,
-    #long_description_content_type="text/markdown",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     project_urls={
         "Transcrypt": "https://www.transcrypt.org/",
     },
