@@ -1,1 +1,1 @@
-from .djangoscript import Djangoscript
+from .papaille import Papaille

@@ -1,1 +1,1 @@
-from .sub_dir import Djangoscript
+from .sub_dir import Papaille
