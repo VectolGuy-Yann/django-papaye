@@ -120,16 +120,17 @@ Note: I currently have not written any tests, since I have tried the program and
 
 ## History
 * [django\-papaye](#django\-papaye)
+   * 0.1.6 - Add a donation link inside README.md 
    * 0.1.5 - Another quick fix on README.md 
    * 0.1.4 - Quick fix on README.md 
    * 0.1.3 - Added a link to Github 
    * 0.1.2 - Added README.md 
    * 0.1.1 - Changes to include necessary files and folders
 
-## Credits
+## Donations
 * [django\-papaye](#django\-papaye)
 
-https://stackoverflow.com/a/38493278/8903959
+https://www.paypal.com/donate/?hosted_button_id=8BWT6CHREL5CE
 
 ## License
 * [django\-papaye](#django\-papaye)
