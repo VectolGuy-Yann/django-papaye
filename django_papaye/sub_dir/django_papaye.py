@@ -7,12 +7,13 @@ __Lisence__ = "BSD"
 __maintainer__ = "Guy-Yann VECTOL"
 __email__ = "guyyann.vectol@gmail.com"
 __status__ = "Development"
-__version__ = "0.0.3"
+__version__ = "0.1.0"
 
 # Default python packages
 import logging
 import os
 import shutil
+import sysconfig
 
 from distutils.dir_util import copy_tree
 
@@ -29,11 +30,11 @@ class DjangoPapaye:
         print('Installing django-papaye inside your Django project...')
 
         try:
-            shutil.copytree('./django_papaye/src/t_logic', './t_logic')
+            shutil.copytree(f'{sysconfig.get_paths()["purelib"]}/django_papaye/src/t_logic', './t_logic')
         except:
             print('-- t_logic folder already existing, skipping --')
 
-        copy_tree('./django_papaye/src/npm', './')
+        copy_tree(f'{sysconfig.get_paths()["purelib"]}/django_papaye/src/npm', './')
 
         os.system('npm install')
 
