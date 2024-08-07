@@ -88,12 +88,12 @@ python3 setup.py develop
 ```
 
 ### System Requirements
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 Must have linux. You can prob change easily to support other OSes, but not currently supported
 
 ## Testing
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 Run tests on install by doing:
 ```pip3 install lib_off_campus_housing_parser --force --install-option test```
@@ -109,7 +109,7 @@ To test a specific submodule, cd into that submodule and run:
 Note: I currently have not written any tests, since I have tried the program and checked it's output by hand so I know that it works. I know that this is not sufficient, but no one is going to use this thing but me so whatevs.
 
 ## Development/Contributing
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -119,27 +119,32 @@ Note: I currently have not written any tests, since I have tried the program and
 6. Email me at jfuruness@gmail.com because I do not check those messages often
 
 ## History
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
+   * 0.1.2 - Added README.md 
    * 0.1.1 - Changes to include necessary files and folders
 
 ## Credits
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 https://stackoverflow.com/a/38493278/8903959
 
 ## License
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 BSD License
 
 ## TODO/Possible Future Improvements
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
     * Actual testing
     * Cross platform compatibility
 
 ## FAQ
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
-Q: Did you just write this to procrastinate logging into work?
+Q: Have you ever opened a 'papaye' 🥭
 
-A: Yes
+A1: Yes and it smells very bad! => like using Transcrypt inside Django at first
+
+A2: But then you start to taste it and now you are getting in love with it. Guess what, same for Transcrypt inside Django
+
+P.S.: Fruits 4 life 🔆🌱🥭💪!
