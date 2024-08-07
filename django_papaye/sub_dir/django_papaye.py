@@ -7,7 +7,7 @@ __Lisence__ = "BSD"
 __maintainer__ = "Guy-Yann VECTOL"
 __email__ = "guyyann.vectol@gmail.com"
 __status__ = "Development"
-__version__ = "0.0.1"
+__version__ = "0.0.3"
 
 # Default python packages
 import logging
@@ -26,7 +26,7 @@ class DjangoPapaye:
 
     def configure(self):
         """Creates all the required files and folders"""
-        print('Installing DjangoPapaye inside your Django project...')
+        print('Installing django-papaye inside your Django project...')
 
         try:
             shutil.copytree('./django_papaye/src/t_logic', './t_logic')
