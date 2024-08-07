@@ -7,7 +7,7 @@ __Lisence__ = "BSD"
 __maintainer__ = "Guy-Yann VECTOL"
 __email__ = "guyyann.vectol@gmail.com"
 __status__ = "Development"
-__version__ = "0.1.9"
+__version__ = "0.1.10"
 
 # Default python packages
 import logging

@@ -108,6 +108,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 ## History
 * [History](#history)
 
+    * 0.1.10 - New changes on README.md
     * 0.1.9 - New changes on README.md
     * 0.1.8 - Changes on README.md
     * 0.1.7 - Enabled README.md for Pypi
@@ -129,7 +130,9 @@ https://www.paypal.com/donate/?hosted_button_id=8BWT6CHREL5CE
 BSD License
 
 Copyright 2024 qlapp
+
 Contributors: Guy-Yann VECTOL
+
 Citation: "As-tu déjà ouvert une papaye? Au premier abord ça pue. Mais ensuite tu y goutes et tu te rends compte que
 c'est super bon ;)"
 
