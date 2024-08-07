@@ -17,7 +17,7 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
-class Papaille:
+class DjangoPapaye:
     """Class that allows the developer to use Transcript with ease"""
 
     def __init__(self, conf_path=os.getcwd()):
@@ -26,14 +26,14 @@ class Papaille:
 
     def configure(self):
         """Creates all the required files and folders"""
-        print('Installing Papaille inside your Django project...')
+        print('Installing DjangoPapaye inside your Django project...')
 
         try:
-            shutil.copytree('./papaille/src/t_logic', './t_logic')
+            shutil.copytree('./django_papaye/src/t_logic', './t_logic')
         except:
             print('-- t_logic folder already existing, skipping --')
 
-        copy_tree('./papaille/src/npm', './')
+        copy_tree('./django_papaye/src/npm', './')
 
         os.system('npm install')
 
@@ -41,4 +41,4 @@ class Papaille:
 
 
 if __name__ == "__main__":
-    Papaille().configure()
+    DjangoPapaye().configure()
