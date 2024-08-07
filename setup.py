@@ -14,7 +14,7 @@ setup(
     author_email="guyyann.vectol@gmail.com",
     maintainer="Guy-Yann VECTOL",
     maintainer_email="guyyann.vectol@gmail.com",
-    version="0.1.1",
+    version="0.1.2",
     #url="https://github.com/jfuruness/lib_work_login.git",
     #download_url='https://github.com/jfuruness/lib_work_login.git',
     keywords=['django-papaye', 'django', 'papaye', 'transcrypt', 'pyjs', 'pytojs', 'py2js', 'Vectol'],
