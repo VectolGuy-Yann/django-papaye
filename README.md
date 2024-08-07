@@ -72,7 +72,7 @@ run in a terminal: ```login```
 If you need to reconfigure (run in a terminal) ```configure```
 
 ### Installation
-* [lib\_work\_login](#lib\_work\_login)
+* [django\-papaye](#django\-papaye)
 
 Install the package with:
 ```pip3 install lib_work_login```
@@ -120,6 +120,7 @@ Note: I currently have not written any tests, since I have tried the program and
 
 ## History
 * [django\-papaye](#django\-papaye)
+   * 0.1.4 - Quick fix on README.md 
    * 0.1.3 - Added a link to Github 
    * 0.1.2 - Added README.md 
    * 0.1.1 - Changes to include necessary files and folders
