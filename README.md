@@ -120,6 +120,7 @@ Note: I currently have not written any tests, since I have tried the program and
 
 ## History
 * [django\-papaye](#django\-papaye)
+   * 0.1.3 - Added a link to Github 
    * 0.1.2 - Added README.md 
    * 0.1.1 - Changes to include necessary files and folders
 
