@@ -67,14 +67,6 @@ configure
 
 Your all good to go now!
 
-#### From the Command Line
-
-NOTE: Even better, configure a custom keyboard shortcut! I use control alt l.
-
-run in a terminal: ```login```
-
-If you need to reconfigure (run in a terminal) ```configure```
-
 ### Installation
 * [Installation](#installation)
 
@@ -116,6 +108,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 ## History
 * [History](#history)
 
+    * 0.1.9 - New changes on README.md
     * 0.1.8 - Changes on README.md
     * 0.1.7 - Enabled README.md for Pypi
     * 0.1.6 - Add a donation link inside README.md
