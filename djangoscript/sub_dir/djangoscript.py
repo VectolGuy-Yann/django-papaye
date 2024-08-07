@@ -12,31 +12,33 @@ __version__ = "0.0.1"
 # Default python packages
 import logging
 import os
-import time
+import shutil
+
+from distutils.dir_util import copy_tree
 
 
 class Djangoscript:
     """Class that allows the developper to use Transcript with ease"""
 
-    def __init__(self, conf_path=os.path.join(os.path.expanduser("~"),
-                                              ".work_login.conf")):
+    def __init__(self, conf_path=os.getcwd()):
         """Saves config file location"""
-
         self.conf_path = conf_path
 
     def configure(self):
         """Creates all the required files and folders"""
+        print('Installing Djangoscript inside your Django project...')
 
-        # Configures config file if not done so already
-        if not os.path.exists(self.conf_path):
-            pass
-        # Opens a terminal
-        os.system("gnome-terminal")
-        time.sleep(1)
-        with open(self.conf_path, "r") as f:
-            for cmd in f:
-                self._run_cmd(cmd)
+        try:
+            shutil.copytree('./djangoscript/src/t_logic', './t_logic')
+        except:
+            print('-- t_logic folder already existing, skipping --')
+
+        copy_tree('./djangoscript/src/npm', './')
+
+        os.system('npm install')
+
+        print('... done => Everything is now ready!')
+
 
 if __name__ == "__main__":
     Djangoscript().configure()
-    

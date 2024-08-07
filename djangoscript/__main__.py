@@ -1,8 +1,9 @@
 from .sub_dir import Djangoscript
 
+
 def main():
-	Djangoscript().build()
-	
+    Djangoscript().configure()
+
+
 if __name__ == '__main__':
-	main()
-	
+    main()

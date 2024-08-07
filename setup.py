@@ -40,8 +40,7 @@ setup(
         'Programming Language :: Python :: 3'],
     entry_points={
         'console_scripts': [
-            'create = djangoscript.__main__:main',
-            # 'configure = djangoscript.__main__:configure',
+            'configure = djangoscript.__main__:main',
         ]},
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
