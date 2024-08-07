@@ -116,10 +116,11 @@ Note: I currently have not written any tests, since I have tried the program and
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
-6. Email me at jfuruness@gmail.com because I do not check those messages often
+6. Email me at guyyann.vectol@gmail.com because I do not check those messages often
 
 ## History
 * [django\-papaye](#django\-papaye)
+   * 0.1.5 - Another quick fix on README.md 
    * 0.1.4 - Quick fix on README.md 
    * 0.1.3 - Added a link to Github 
    * 0.1.2 - Added README.md 
