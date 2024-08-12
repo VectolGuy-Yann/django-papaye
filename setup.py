@@ -14,7 +14,7 @@ setup(
     author_email="guyyann.vectol@gmail.com",
     maintainer="Guy-Yann VECTOL",
     maintainer_email="guyyann.vectol@gmail.com",
-    version="0.1.10",
+    version="0.1.11",
     url="https://github.com/VectolGuy-Yann/django-papaye",
     download_url='https://github.com/VectolGuy-Yann/django-papaye',
     keywords=['django-papaye', 'django', 'papaye', 'transcrypt', 'pyjs', 'pytojs', 'py2js', 'Vectol'],

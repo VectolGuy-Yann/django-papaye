@@ -1,6 +1,6 @@
 {
   "name": "django-papaye",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "You write in Python, it compiles in Javascript",
   "scripts": {
     "devDesktop": "rm -rf .build/ .parcel-cache/ && NODE_ENV=development parcel watch t_logic/main.py --log-level info --no-source-maps --port 8080 --dist-dir static/js",

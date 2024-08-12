@@ -65,6 +65,19 @@ pip install django-papaye
 configure
 ```
 
+6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag
+
+```html
+{% load static %}
+
+<body>
+    ...
+
+    {# Transcrypted from .py to .js #}
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+```
+
 Your all good to go now!
 
 ### Installation
@@ -108,6 +121,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 ## History
 * [History](#history)
 
+    * 0.1.11 - Added import main.js in base.html on README.md
     * 0.1.10 - New changes on README.md
     * 0.1.9 - New changes on README.md
     * 0.1.8 - Changes on README.md
