@@ -33,14 +33,13 @@ Assuming you already created a Django project at '/path/to/your/django/project'
 Before installing django-papaye you MUST first:
 
 1) Install pyenv: https://github.com/pyenv/pyenv
-2) Install a python3.9 version via pyenv:
 
+2) Install a python3.9 version via pyenv:
 ```bash
 pyenv install 3.9.19
 ```
 
 3) In a new terminal tab, create a specific python virtual environment via pyenv:
-
 ```bash
 cd /path/to/your/django/project  # go to you django project root folder (same folder where manage.py is)
 
@@ -54,19 +53,16 @@ source venv-3.9/bin/activate  # to activate your venv-3.9
 ```
 
 4) Install django-papaye
-
 ```bash
 pip install django-papaye
 ```
 
 5) Then configure your django transcrypt environment by executing this command:
-
 ```bash
 configure
 ```
 
 6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag
-
 ```html
 {% load static %}
 
@@ -78,7 +74,19 @@ configure
 </body>
 ```
 
-Your all good to go now!
+7) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag
+```bash
+npm run devDesktop
+```
+
+8) Add the following code to t_logic/main.py 
+```python
+print('Hello from Transcrypt and django-papaye!')
+```
+
+9) Reload your browser with ctrl+shift+r, then open "inspect", then go "Console" tab and you should see the content of your print coded at previous step.
+
+Your all good to go now! 🥭
 
 ### Installation
 * [Installation](#installation)
@@ -121,6 +129,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 ## History
 * [History](#history)
 
+    * 0.1.12 - Changes on README.md
     * 0.1.11 - Added import main.js in base.html on README.md
     * 0.1.10 - New changes on README.md
     * 0.1.9 - New changes on README.md

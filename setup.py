@@ -14,7 +14,7 @@ setup(
     author_email="guyyann.vectol@gmail.com",
     maintainer="Guy-Yann VECTOL",
     maintainer_email="guyyann.vectol@gmail.com",
-    version="0.1.11",
+    version="0.1.12",
     url="https://github.com/VectolGuy-Yann/django-papaye",
     download_url='https://github.com/VectolGuy-Yann/django-papaye',
     keywords=['django-papaye', 'django', 'papaye', 'transcrypt', 'pyjs', 'pytojs', 'py2js', 'Vectol'],
@@ -25,7 +25,7 @@ setup(
     project_urls={
         "Transcrypt": "https://www.transcrypt.org/",
     },
-    python_requires=">=3.6",
+    python_requires="==3.9",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
