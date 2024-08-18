@@ -1,6 +1,6 @@
 # django-papaye
 
-This package installs helps help you use Transcrypt in Django.
+This package helps you use Transcrypt in Django.
 
 It gives you new terminal commands and configures all you need inside any Django project, so you're all set to go.
 
@@ -52,7 +52,7 @@ python3 -m venv venv-3.9
 source venv-3.9/bin/activate  # to activate your venv-3.9
 ```
 
-4) Install django-papaye
+4) Install django-papaye:
 ```bash
 pip install django-papaye
 ```
@@ -62,7 +62,7 @@ pip install django-papaye
 configure
 ```
 
-6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag
+6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag:
 ```html
 {% load static %}
 
@@ -74,12 +74,12 @@ configure
 </body>
 ```
 
-7) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag
+7) Start the Transcrypt Python2JS development server:
 ```bash
 npm run devDesktop
 ```
 
-8) Add the following code to t_logic/main.py 
+8) Add the following code to t_logic/main.py:
 ```python
 print('Hello from Transcrypt and django-papaye!')
 ```
@@ -129,6 +129,8 @@ that it works. I know that this is not sufficient, but no one is going to use th
 ## History
 * [History](#history)
 
+    * 0.1.14 - New quick fix on README.md
+    * 0.1.13 - Quick fix on README.md
     * 0.1.12 - Changes on README.md
     * 0.1.11 - Added import main.js in base.html on README.md
     * 0.1.10 - New changes on README.md
