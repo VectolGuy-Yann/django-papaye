@@ -9,22 +9,18 @@ It gives you new terminal commands and configures all you need inside any Django
 * [Installation](#installation)
 * [System Requirements](#system-requirements)
 * [Tutorials](#tutorials)
-* [Testing](#testing)
 * [Development/Contributing](#developmentcontributing)
 * [History](#history)
 * [Donations](#donations)
 * [Licence](#licence)
-* [Todo and Possible Future Improvements](#todopossible-future-improvements)
 * [FAQ](#faq)
 
 ## [Description](#package-description)
 
-django-papaye package configures your Django project in order to let you use Transcrypt into it the better way as
+django-papaye 🥭 package configures your Django project in order to let you use Transcrypt into it the better way as
 possible.
 
 ## [Usage](#usage)
-
-#### In a Script - purely for development
 
 Assuming you already created a Django project at '/path/to/your/django/project'
 (if not please do so)
@@ -51,17 +47,17 @@ python3 -m venv venv-3.9
 source venv-3.9/bin/activate  # to activate your venv-3.9
 ```
 
-4) Install django-papaye:
+4) Install django-papaye 🥭:
 ```bash
 pip install django-papaye
 ```
 
-5) Then configure your django transcrypt environment by executing this command:
+5) Then configure your Django/Transcrypt environment by executing this command:
 ```bash
 configure
 ```
 
-6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to Javascript just before the end of body tag:
+6) Add a "load static" statement at top of base.html, then add a "script" calling your code transpiled from Python to JavaScript just before the end of body tag:
 ```html
 {% load static %}
 
@@ -85,7 +81,7 @@ print('Hello from Transcrypt and django-papaye!')
 
 9) Reload your browser with ctrl+shift+r, then open "inspect", then go "Console" tab and you should see the content of your print coded at previous step.
 
-Your all good to go now! 🥭
+Your all good to go now!
 
 ## [Installation](#installation)
 
@@ -111,23 +107,6 @@ https://www.udemy.com/course/devenir-developpeur-web-fullstack-en-100-python/?co
 Also if you want to check some videos and tutorials on django-papaye 🥭, you can watch our [YouTube playlist](https://www.youtube.com/playlist?list=PLk4FIlI8V5EJiAC9rCjsy13xoSmds0S51):  
 https://www.youtube.com/playlist?list=PLk4FIlI8V5EJiAC9rCjsy13xoSmds0S51 
 
-
-## [Testing](#testing)
-
-Run tests on install by doing:
-```pip3 install lib_off_campus_housing_parser --force --install-option test```
-This will install the package, force the command line arguments to be installed, and run the tests
-NOTE: You might need sudo to install command line arguments when doing this
-
-You can test the package if in development by moving/cd into the directory where setup.py is located and running:
-```python3 setup.py test```
-
-To test a specific submodule, cd into that submodule and run:
-```pytest```
-
-Note: I currently have not written any tests, since I have tried the program and checked it's output by hand so I know
-that it works. I know that this is not sufficient, but no one is going to use this thing but me so whatevs.
-
 ## [Development/Contributing](#developmentcontributing)
 
 1. Fork it!
@@ -139,6 +118,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 
 ## [History](#history)
 
+    * 0.1.17 - New fix on README.md
     * 0.1.16 - Fix on README.md
     * 0.1.15 - Added Udemy and YouTube links on README.md
     * 0.1.14 - New quick fix on README.md
@@ -158,6 +138,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 
 ## [Donations](#donations)
 
+If you want to help us, don't hesitate with any donation :)  
 https://www.paypal.com/donate/?hosted_button_id=8BWT6CHREL5CE
 
 ## [Licence](#licence)
@@ -190,11 +171,6 @@ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PRO
 SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-## [Todo and Possible Future Improvements](#todopossible-future-improvements)
-
-    * Actual testing
-    * Cross platform compatibility
 
 ## [FAQ](#faq)
 
