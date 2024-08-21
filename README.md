@@ -8,6 +8,7 @@ It gives you new terminal commands and configures all you need inside any Django
 * [Usage](#usage)
 * [Installation](#installation)
 * [System Requirements](#system-requirements)
+* [Tutorials](#tutorials)
 * [Testing](#testing)
 * [Development/Contributing](#developmentcontributing)
 * [History](#history)
@@ -16,14 +17,12 @@ It gives you new terminal commands and configures all you need inside any Django
 * [Todo and Possible Future Improvements](#todopossible-future-improvements)
 * [FAQ](#faq)
 
-## Package Description
-* [Description](#package-description)
+## [Description](#package-description)
 
 django-papaye package configures your Django project in order to let you use Transcrypt into it the better way as
 possible.
 
-### Usage
-* [Usage](#usage)
+## [Usage](#usage)
 
 #### In a Script - purely for development
 
@@ -88,19 +87,29 @@ print('Hello from Transcrypt and django-papaye!')
 
 Your all good to go now! 🥭
 
-### Installation
-* [Installation](#installation)
+## [Installation](#installation)
 
 Install the package with:
 ```pip install django-papaye```
 
-### System Requirements
-* [System Requirements](#system-requirements)
+## [System Requirements](#system-requirements)
 
 Must have linux. You can prob change easily to support other OSes, but not currently supported
 
-## Testing
-* [Testing](#testing)
+## [Tutorials](#Tutorials)
+
+#### Udemy
+We have a complete course on django-papaye 🥭 on Udemy:  
+https://www.udemy.com/course/devenir-developpeur-web-fullstack-en-100-python/?couponCode=E2827E35C7B7195FAD01  
+
+![](django_papaye/src/static/Formation_python.png)  
+
+#### YouTube
+Also if you want to check some videos and tutorials on django-papaye, you can watch our YouTube playlist:  
+https://www.youtube.com/playlist?list=PLk4FIlI8V5EJiAC9rCjsy13xoSmds0S51 
+
+
+## [Testing](#testing)
 
 Run tests on install by doing:
 ```pip3 install lib_off_campus_housing_parser --force --install-option test```
@@ -116,8 +125,7 @@ To test a specific submodule, cd into that submodule and run:
 Note: I currently have not written any tests, since I have tried the program and checked it's output by hand so I know
 that it works. I know that this is not sufficient, but no one is going to use this thing but me so whatevs.
 
-## Development/Contributing
-* [Development/Contributing](#developmentcontributing)
+## [Development/Contributing](#developmentcontributing)
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -126,9 +134,9 @@ that it works. I know that this is not sufficient, but no one is going to use th
 5. Submit a pull request
 6. Email me at guyyann.vectol@gmail.com because I do not check those messages often
 
-## History
-* [History](#history)
+## [History](#history)
 
+    * 0.1.15 - Added Udemy and YouTube links on README.md
     * 0.1.14 - New quick fix on README.md
     * 0.1.13 - Quick fix on README.md
     * 0.1.12 - Changes on README.md
@@ -144,13 +152,11 @@ that it works. I know that this is not sufficient, but no one is going to use th
     * 0.1.2 - Added README.md
     * 0.1.1 - Changes to include necessary files and folders
 
-## Donations
-* [Donations](#donations)
+## [Donations](#donations)
 
 https://www.paypal.com/donate/?hosted_button_id=8BWT6CHREL5CE
 
-## License
-* [Licence](#licence)
+## [Licence](#licence)
 
 BSD License
 
@@ -181,14 +187,12 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSE
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## TODO/Possible Future Improvements
-* [Todo and Possible Future Improvements](#todopossible-future-improvements)
+## [Todo and Possible Future Improvements](#todopossible-future-improvements)
 
     * Actual testing
     * Cross platform compatibility
 
-## FAQ
-* [FAQ](#faq)
+## [FAQ](#faq)
 
 Q: Why this name: django-papaye ?
 
