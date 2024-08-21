@@ -94,18 +94,21 @@ Install the package with:
 
 ## [System Requirements](#system-requirements)
 
-Must have linux. You can prob change easily to support other OSes, but not currently supported
+django-papaye 🥭 should work fine on Unix systems (Linux, MacOS).  
+
+For Windows users, if you follow my guideline, it should be fine too.  
+But if you encounter any issues, please leave me a message and I'll do my best to help you ASAP.
 
 ## [Tutorials](#Tutorials)
 
 #### Udemy
-We have a complete course on django-papaye 🥭 on Udemy:  
+We have a complete course on django-papaye 🥭 on [Udemy](https://www.udemy.com/course/devenir-developpeur-web-fullstack-en-100-python/?couponCode=E2827E35C7B7195FAD01):  
 https://www.udemy.com/course/devenir-developpeur-web-fullstack-en-100-python/?couponCode=E2827E35C7B7195FAD01  
 
 ![](django_papaye/src/static/Formation_python.png)  
 
 #### YouTube
-Also if you want to check some videos and tutorials on django-papaye, you can watch our YouTube playlist:  
+Also if you want to check some videos and tutorials on django-papaye 🥭, you can watch our [YouTube playlist](https://www.youtube.com/playlist?list=PLk4FIlI8V5EJiAC9rCjsy13xoSmds0S51):  
 https://www.youtube.com/playlist?list=PLk4FIlI8V5EJiAC9rCjsy13xoSmds0S51 
 
 
@@ -136,6 +139,7 @@ that it works. I know that this is not sufficient, but no one is going to use th
 
 ## [History](#history)
 
+    * 0.1.16 - Fix on README.md
     * 0.1.15 - Added Udemy and YouTube links on README.md
     * 0.1.14 - New quick fix on README.md
     * 0.1.13 - Quick fix on README.md
